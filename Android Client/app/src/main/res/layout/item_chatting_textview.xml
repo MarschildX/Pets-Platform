@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <ImageView
+                android:id="@+id/id_item_chatting_iv"
+                android:src="@drawable/chattingdemo"
+                android:layout_margin="4dp"
+                android:layout_width="95dp"
+                android:layout_height="match_parent"/>
+
+
+
+        <TextView
+                android:id="@+id/id_item_chatting_tv"
+                android:text="玲珑骰子安红豆\n入骨相思君知否"
+                android:layout_width="0dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="6dp"
+                android:textSize="19dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

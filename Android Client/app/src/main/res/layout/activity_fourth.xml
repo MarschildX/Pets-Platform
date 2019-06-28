@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/id_atf_rl"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.xufang.petinfotest.FourthActivity">
+
+
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_alignParentTop="true"
+                  android:layout_alignParentStart="true">
+
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <EditText android:id="@+id/id_atf_et"
+                      android:text="Type something here."
+                      android:textSize="16dp"
+                      android:inputType="textMultiLine"
+                      android:minLines="5"
+                      android:gravity="top"
+                      android:textColor="#eed3d3d3"
+                      android:layout_width="match_parent"
+                      android:layout_height="200dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+
+            <ImageView android:id="@+id/id_atf_iv_show"
+                       android:layout_width="80dp"
+                       android:layout_height="80dp"/>
+
+            <ImageView android:id="@+id/id_atf_iv_photo"
+                       android:layout_margin="4dp"
+                       android:src="@drawable/add"
+                       android:layout_width="40dp"
+                       android:layout_height="40dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <TextView android:layout_width="wrap_content"
+                      android:text="暂时只支持上传一张图片"
+                      android:textSize="16dp"
+                      android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    
+
+
+
+    <LinearLayout android:layout_alignParentBottom="true"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+                <Button android:layout_width="70dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginBottom="9dp"
+                        android:id="@+id/id_atf_back"
+                        android:text="取消"
+                        android:textSize="17dp"
+                        android:background="@color/colorAccent"
+                        android:layout_height="45dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_alignParentRight="true"
+                          android:layout_height="wrap_content">
+
+                <Button android:layout_marginRight="6dp"
+                        android:layout_marginBottom="9dp"
+                        android:id="@+id/id_atf_bt"
+                        android:text="发布"
+                        android:textSize="17dp"
+                        android:background="#20B2AA"
+                        android:layout_width="70dp"
+                        android:layout_height="45dp"/>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

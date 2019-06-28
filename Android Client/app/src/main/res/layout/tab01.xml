@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/id_tab01_fl"
+              android:layout_width="match_parent"
+              android:gravity="center"
+              android:background="#A6E8E8E8"
+              android:layout_height="match_parent">
+
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/id_tab01_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="35dp"
+            app:rippleColor="#7B68EE"
+            app:layout_anchor="@id/id_tab01_fl"
+            app:elevation="15dp"
+            app:fabSize="normal"
+            app:srcCompat="@drawable/feather_white" />
+
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/id_recyclerView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+    />
+
+</FrameLayout>

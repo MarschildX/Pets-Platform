@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="#CCd3d3d3"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="50dp">
+
+    <EditText android:id="@+id/id_cb_et"
+              android:layout_width="0dp"
+              android:layout_marginLeft="6dp"
+              android:layout_weight="1"
+              android:layout_height="match_parent"/>
+
+    <Button android:id="@+id/id_cb_bn"
+            android:text="发送"
+            android:background="#20B2AA"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="15sp"
+            android:layout_width="65dp"
+            android:layout_height="40dp"/>
+
+</LinearLayout>
