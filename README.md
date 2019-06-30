@@ -35,23 +35,23 @@ __4. Community communication__
 
 __1. main interface__
 
-  <img src="Images/main_interface.png" height="430" width="240" >
+  &emsp;<img src="Images/main_interface.png" height="430" width="240" >
 
 __2. detail info interface__
   
-  <img src="Images/detail_info_interface.png" height="430" width="240" >
+  &emsp;<img src="Images/detail_info_interface.png" height="430" width="240" >
   
 __3. delivering info interface__
 
-  <img src="Images/deliver_interface.png" height="430" width="240" >
+  &emsp;<img src="Images/deliver_interface.png" height="430" width="240" >
   
 __4. contact interface__
 
-  <img src="Images/contact_interface.png" height="430" width="240" >
+  &emsp;<img src="Images/contact_interface.png" height="430" width="240" >
   
 __5. chatting interface__
 
-  <img src="Images/chatting_interface.png" height="430" width="240" >
+  &emsp;<img src="Images/chatting_interface.png" height="430" width="240" >
   
 
 
